@@ -1,0 +1,70 @@
+body{
+    justify-content: center;
+    justify-items: center;
+    flex: auto;
+    padding: 15%;
+}
+
+.egesz{
+    justify-content: center;
+    justify-items: center;
+    background-color: gray;
+}
+.egesz>div>h1{
+    padding: 10px;
+}
+
+.randomtext{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+}
+.randomtext>p{
+    width: 100%;
+    background: pink;
+    text-align: center;
+    margin: 0px 90px 0px 90px;
+    padding: 0px 5% 0px 5%;
+}
+.kijelzo{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+
+}
+.kijelzo>div{
+    padding: 10% 10% 10% 10%;
+    margin: 10%;
+    width: 100%;
+    background-color: darkgray;
+}
+
+.gombok{
+    display: flex;
+    padding: 3%;
+    flex-direction: row;
+    width: 20%;
+}
+
+.gombok>button{
+    padding: 10%;
+    margin: 4%;
+}
+.ize {
+    position: relative;
+    border-radius: 5px;
+    max-width: 320px;
+  }
+  .ize::after {
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+  }
+  .ize::after {
+    border-bottom-color: pink;
+    border-top: 0;
+    top: -20px; left: 50%;
+    margin-left: -20px;
+  }
