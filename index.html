@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <div class="egesz">
-    <div><h1>Does the meaning match the next cube?</h1></div>
-    <div class="kijelzo">
-        <div id="szin" class="bal">Placeholder</div>
-        <div id="szovegszin" class="jobb">Placeholder2</div>
+        <div class="szutykok">
+            <h1>Does the meaning match the next cube?</h1>
+            <button onclick="start()">START</button>
+            <p id="scor">score: </p>
+            <p id="high">highscore: </p>
+            <a onclick="start()"><p id="info" class="info">click start</p></a>
+        </div>
+        <div class="kijelzo">
+            <div id="szin" class="bal">white</div>
+            <div id="szovegszin" class="jobb">white</div>
+        </div>
+        <div class="randomtext">
+            <p class="ize">Meaning</p>
+            <p class="ize">Textcolor</p>
+        </div>
+        <div class="gombok">
+            <button onclick="hamis()" class="balgomb">NO</button>
+            <button onclick="igaz()" class="jobbgomb">YES</button>
+        </div>
     </div>
-    <div class="randomtext">
-        <p class="ize">Meaning</p>
-        <p class="ize">Textcolor</p>
-    </div>
-    <div class="gombok">
-        <button class="balgomb">NO</button>
-        <button onclick="game()" class="jobbgomb">YES</button>
-    </div>
-</div>
 
 </body>
+
 </html>

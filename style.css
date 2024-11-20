@@ -3,6 +3,7 @@ body{
     justify-items: center;
     flex: auto;
     padding: 15%;
+    cursor: default;
 }
 
 .egesz{
@@ -10,8 +11,8 @@ body{
     justify-items: center;
     background-color: gray;
 }
-.egesz>div>h1{
-    padding: 10px;
+.szutykok{
+    padding: 0px 10px 0px 10px;
 }
 
 .randomtext{
@@ -24,7 +25,7 @@ body{
     width: 100%;
     background: pink;
     text-align: center;
-    margin: 0px 90px 0px 90px;
+    margin: -20px 70px 10px 70px;
     padding: 0px 5% 0px 5%;
 }
 .kijelzo{
@@ -68,3 +69,17 @@ body{
     top: -20px; left: 50%;
     margin-left: -20px;
   }
+a{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.info{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+p{
+    margin: 5px;
+}
